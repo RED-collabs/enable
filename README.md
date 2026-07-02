@@ -9,6 +9,9 @@ step 4: sudo chmod +x /usr/local/bin/sno "
 if u skip step 4: type " sudo bash sno " to run  
 step 5: to run the script type " sudo sno " may ask for usr pass  
 
+if not working may need to run this   
+sudo chown root:root /usr/local/bin/sno
+
 sudo sno [services] [status]   
 service eg:ssh   
 status:   
