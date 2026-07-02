@@ -1,0 +1,20 @@
+#!/bin/bash
+
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+if [ $2 -eq 0 ];then
+
+systemctl stop $1 && systemctl disable $1 
+echo -e "\n ${GREEN} $1 is $(systemctl check $1) ${NC}"
+
+elif [ $2 -eq 1 ];then
+systemctl start $1 && systemctl enable $1 
+echo -e "\n ${GREEN} $1 is $(systemctl check $1) ${NC}"
+
+else
+echo -e "\n usage:sudo enable [services] [status] \n service eg:ssh \n status: 1 = on \n 0 = off"
+
+fi
+
+
