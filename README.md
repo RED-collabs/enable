@@ -11,8 +11,9 @@ step 5: to run the script type " sudo enable " may ask for usr pass
 
 sudo enable [services] [status]   
 service eg:ssh   
-status: 1 = on   
-        0 = off    
+status:
+1 = on    
+0 = off     
 
   Please Report any error  
   and this should  works in:
