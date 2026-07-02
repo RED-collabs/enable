@@ -9,7 +9,10 @@ step 4: sudo chmod +x /usr/local/bin/enable "
 if u skip step 4: type " sudo bash enable " to run  
 step 5: to run the script type " sudo enable " may ask for usr pass  
 
-\n usage:sudo enable [services] [status] \n service eg:ssh \n status: 1 = on \n 0 = off  
+sudo enable [services] [status]   
+service eg:ssh   
+status: 1 = on 
+        0 = off    
 
   Please Report any error  
   and this should  works in:
