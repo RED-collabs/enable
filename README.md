@@ -22,6 +22,8 @@ status:
   and this should  works in:
   Works perfectly on:
 
+  # u may need to update securepath in visudo  
+
 Debian (Stable, Testing, Unstable)  
 Ubuntu (Kubuntu, Xubuntu, Lubuntu, etc.)  
 Linux Mint (including LMDE)  
